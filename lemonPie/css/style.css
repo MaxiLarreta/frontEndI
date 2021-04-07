@@ -10,4 +10,13 @@ body{
     color: white;
     background-position: center;
 }
+h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-size: 19px;
+    color: rgb(75, 75, 75);
+}
+h2{
+    font-weight: 700;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
