@@ -12,56 +12,66 @@
   </head>
   <body>
     <aside>
-      <p>Descuentos 20%</p>
+      <p class="descuento">Descuentos 20%</p>
     </aside>
     <header>
         <h1>Card Super Heroes</h1>
     </header>
     <main>
       <section>
-        <article>
+        <div class="fondoBatman">
           <i class="fas fa-heart"></i>
-          <img src="./img/batman.jpg" alt="batman">
+        </div>
+        <article class="batman">
+          <div class="logoBatman logo"></div>
           <h2>Batman</h2>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae qui voluptatem sed ratione, 
-                sunt modi at ducimus fugiat quas illum quis ullam architecto officiis cumque facere rerum corrupti optio similique molestias, 
-                officia ipsam pariatur eius assumenda omnis. Eos eius nesciunt, recusandae veritatis odit, aut praesentium qui at dicta harum rerum.
+            <p class="descripcion">  es un personaje creado por los estadounidenses Bob Kane y Bill Finger, y propiedad de DC Comics. Apareció por primera vez en la historia titulada
+               «El caso del sindicato químico» de la revista Detective Comics N.º 27, lanzada por la editorial National Publications el 30 de marzo de 1939.
+               La identidad secreta de Batman es Bruce Wayne, un multimillonario magnate empresarial y filántropo dueño de Empresas Wayne en Gotham City. A diferencia de los superhéroes, 
+               no tiene superpoderes
             </p>
             <form action="https://es.wikipedia.org/wiki/Batman" target="_blank">
               <button type="submit" >Ver Mas</button> 
             </form>
         </article>
-        <article>
+        <div class="fondoMaravilla">
           <i class="fas fa-heart"></i>
-          <img src="./img/wonderw.jpg" alt="Mujer Maravilla">
+        </div>
+        <article class="maravilla">
+          <div class="logoMaravilla logo"> </div>
           <h2>Mujer Maravilla</h2>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae qui voluptatem sed ratione, 
-                sunt modi at ducimus fugiat quas illum quis ullam architecto officiis cumque facere rerum corrupti optio similique molestias, 
-                officia ipsam pariatur eius assumenda omnis. Eos eius nesciunt, recusandae veritatis odit, aut praesentium qui at dicta harum rerum.
+            <p class="descripcion">  es una superheroína ficticia creada por William Moulton Marston para la editorial DC Comics. Es una princesa guerrera de las Amazonas,
+              pueblo ficticio basado en el de las amazonas de la mitología griega. 
+              En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta utiliza la identidad secreta de Diana Prince.
+              Está dotada de una amplia gama de poderes superhumanos y habilidades de combate de batalla superiores, gracias a sus dones obtenidos de los dioses y su amplio entrenamiento. 
             </p>
             <form action="https://es.wikipedia.org/wiki/Mujer_Maravilla" target="_blank">
               <button type="submit" >Ver Mas</button> 
             </form>
         </article>
-        <article>
+        <div class="fondoSuperman">
           <i class="fas fa-heart"></i>
-          <img src="./img/superman.jpg" alt="Superman">
+        </div>
+        <article class="superman">
+          <div class="logoSuperman logo"> </div>
           <h2>Superman</h2>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae qui voluptatem sed ratione, 
-                sunt modi at ducimus fugiat quas illum quis ullam architecto officiis cumque facere rerum corrupti optio similique molestias, 
-                officia ipsam pariatur eius assumenda omnis. Eos eius nesciunt, recusandae veritatis odit, aut praesentium qui at dicta harum rerum.
+            <p class="descripcion"> Superman nació en el planeta Krypton y recibió el nombre de Kal-El al nacer. Cuando era bebé, sus padres, el científico Jor-El, y su esposa Lara Lor-Van, 
+              lo enviaron a la Tierra en una pequeña nave espacial momentos antes de que Krypton fuera destruido en un cataclismo natural. Su nave aterrizó en el campo estadounidense, 
+              cerca de la ciudad ficticia de Smallville. Fue encontrado y adoptado por los agricultores Jonathan y Martha Kent, quienes lo llamaron Clark Kent. 
             </p>
             <form action="https://es.wikipedia.org/wiki/Superman" target="_blank">
               <button type="submit" >Ver Mas</button> 
             </form>
         </article>
+        <div>
+          <form action="https://es.wikipedia.org/wiki/Anexo:Personajes_de_DC_Comics" target="_blank">
+            <button type="submit" class="agregar"> + </button>
+          </form>
+        </div>
       </section>
-      <div>
-        <p id="mas">+</p>
-      </div>
     </main>
     <footer>
-      <p>Todos los derechos reservados a FRONT END 1</p> <img src="./img/github.png" alt="Logo github">
+      <p>Todos los derechos reservados a FRONT END 1 <img src="./img/github.png" alt="Logo github"></p> 
     </footer>
   </body>
 </html>
