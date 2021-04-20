@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+aside {
+    position: sticky;
+    width: 100%;
+    height: 3vh;
+    left: 0px;
+    top: 0px;
+    background: #1CD1B0;
+    float: left;
+    z-index: 1;
+}
+.descuento {
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px 18px;
+}
+header {
+    background-color: #00669F;
+    display: inline-block;
+    width: 100%;
+    height: 5vh;
+    box-shadow: 0px 5px 4px rgb(0 0 0 / 25%);
+}
+h1 {
+    margin: 5px 18px;
+    color: white;
+    font-weight: normal;
+}
+.login{
+    height: 450px;
+    width: 528px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 136px;
+    margin-bottom: 24.5vh;
+}
+footer{
+    display: inline-block;
+    background-color: #00669F;
+    width: 100%;
+    height: 7vh;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+footer>p{
+    margin-top: 25px;
+}
+input{
+    width: 87%;
+    height: 40px;
+    border: black solid 1px;
+    margin-bottom: 14px;
+    margin-left: 29px;
+}
+button{
+    width: 87%;
+    border-radius: 21px;
+    height: 36px;
+    background: #1CD1B0;
+    border: none;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-left: 29px;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 29px;
+    margin-bottom: 28px;
+}
+::placeholder{
+    color: black;
+}
+a{
+    color: #00669F;;
+    text-decoration: none;
+}
+.registrarme{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.registrarme>p{
+    margin: 0;
+    margin-left: 5px;
+}
+
+/* Registro */
+
+.reset{
+    width: 42%;
+    border-radius: 21px;
+    height: 36px;
+    background:#888888;
+    color: white;
+    border: none;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-left: 29px;
+}
+.ingresar{
+    width: 42%;
+    border-radius: 21px;
+    height: 36px;
+    background: #1CD1B0;
+    border: none;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-left: 11px;
+}
+.registro{
+    height: 450px;
+    width: 528px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-bottom: 29.8vh;
+}
+select{
+    width: 88%;
+    height: 45px;
+    border: black solid 1px;
+    margin-bottom: 14px;
+    margin-left: 29px;
+}
